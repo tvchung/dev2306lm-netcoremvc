@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "List Product";
+}
+
+<h1>List Product</h1>
+<hr/>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in ViewBag.products)
+            {
+                <tr>
+                    <td>@item.productId</td>
+                    <td>@item.productName</td>
+                    <td>@item.yearRelease</td>
+                    <td>@item.price</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+

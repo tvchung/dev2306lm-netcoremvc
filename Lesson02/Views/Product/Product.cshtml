@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Get Product";
+}
+
+<h1>Get Product</h1>
+<hr />
+<div class="border my-3 p-4">
+    <h2>Truy cập đối tượng từ ViewBag</h2>
+    <p>Mã sản phẩm: @ViewBag.product.productId</p>
+    <p>Tên sản phẩm: @ViewBag.product.productName</p>
+    <p>Năm: @ViewBag.product.yearRelease</p>
+    <p>Giá: @ViewBag.product.price</p>
+</div>
+
+@{
+    var product = ViewData["product"] as Lesson02.Models.Product;
+}
+<div class="border my-3 p-4">
+    <h2>Truy cập đối tượng từ ViewData</h2>
+    <p>Mã sản phẩm: @product.productId</p>
+    <p>Tên sản phẩm: @product.productName</p>
+    <p>Năm: @product.yearRelease</p>
+    <p>Giá: @product.price</p>
+</div>
+

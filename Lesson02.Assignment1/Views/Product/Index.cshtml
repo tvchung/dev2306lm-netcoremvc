@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Lesson02.Assignment1.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index - @ViewBag.Id</h1>
+<hr/>
+@foreach (var item in Model)
+{
+    <h3>@item.Name</h3>
+}

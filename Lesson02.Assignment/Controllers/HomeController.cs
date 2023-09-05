@@ -8,17 +8,16 @@ namespace Lesson02.Assignment.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly DataContext _db;
-        public HomeController(ILogger<HomeController> logger, DataContext db)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _db = db;
-            _db.Database.EnsureCreated();
         }
 
 
         public IActionResult Index()
         {
+            var model = Data.listCategory.ToList();
+            ViewBag.category = model;
             return View();
         }
 

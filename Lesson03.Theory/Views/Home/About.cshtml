@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+
+@{
+    var name = "Trinhj Vawn Chung";
+    var age = 45;
+}
+
+<div class="alert alert-danger">
+    @name - @age
+</div>
+
+@{
+    var total = 1500;
+}
+@if(total>1000){
+    <h2>Bạn nằm trong số 30% người giầu</h2>
+}else if(total>500){
+    <h2>Bạn nằm trong số 70% người giầu</h2>
+}else{
+    <h2>Bạn nằm trong số 90% người giầu</h2>
+}
+
+<h2> Cấu trúc for</h2>
+@{
+    for (int i = 0; i < 10; i++)
+    {
+        if(i%2==0){
+            <span class="btn btn-danger"> @i </span>
+        }else{
+            <span class="btn btn-success"> @i </span>
+        }
+    }
+}

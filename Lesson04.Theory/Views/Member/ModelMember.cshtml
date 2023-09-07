@@ -1,0 +1,24 @@
+﻿@model Lesson04.Theory.Models.DataModels.Member;
+@{
+    ViewData["Title"] = "Thông tin Member";
+
+    var member = Model as Lesson04.Theory.Models.DataModels.Member;
+}
+
+<h1>Thông tin Member</h1>
+<hr />
+<div class="alert alert-success">
+    <p>Member ID: @Model.MemberId</p>
+    <p>UserName: @Model.UserName</p>
+    <p>Password: @Model.Password</p>
+    <p>FullName: @Model.FullName</p>
+    <p>Email: @Model.Email</p>
+</div>
+<hr/>
+<div class="alert alert-success">
+    <p>Member ID: @member.MemberId</p>
+    <p>UserName: @member.UserName</p>
+    <p>Password: @member.Password</p>
+    <p>FullName: @member.FullName</p>
+    <p>Email: @member.Email</p>
+</div>

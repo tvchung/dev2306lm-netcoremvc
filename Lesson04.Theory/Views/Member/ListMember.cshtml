@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "List Member";
+    var stt = 0;
+}
+
+<h1>List Member</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Member Id</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Password</th>
+            <th scope="col">FullName</th>
+            <th scope="col">Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.listMember)
+        {
+            stt++;
+            <tr>
+                <th scope="row">@stt</th>
+                <td>@item.MemberId</td>
+                <td>@item.UserName</td>
+                <td>@item.Password</td>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -24,6 +24,8 @@ C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
@@ -218,5 +220,3 @@ C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\obj\Debug\net6.0\Lesson02.Assignment.pdb
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\obj\Debug\net6.0\Lesson02.Assignment.genruntimeconfig.cache
 C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\obj\Debug\net6.0\ref\Lesson02.Assignment.dll
-C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\devmaster.edu.vn\DEV2306LM-NETCORE35\AspNetCoreMVC\DevAspNetCoreMvc\Lesson02.Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
